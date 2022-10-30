@@ -34,6 +34,7 @@ internal class Program
              * if it had just one, it would seen as a hashset instead of table
              * with an array, it could have either or
              * I think more complex systems should have hashtable used while less complex ones shouldn't
+             * I believe that the hashtables are more efficient because you can have a bit more plus they have ways that can help if there are collisions
              */
 
 
@@ -73,6 +74,8 @@ internal class Program
              * I think queues are more suficient in removing old data, since it removes from the rear
              * while stacks are more suficient in removing near the top
              * I would prefer to use queue for these types of structures
+             * I feel like queue one is more efficient because it solves problems having sequential processing
+             * that is a specific order received by the senses
              */
         }
     }
