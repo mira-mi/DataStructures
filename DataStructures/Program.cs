@@ -30,7 +30,9 @@ internal class Program
             /*A hashtable seems more beneficial when you have multiple data sets
              * an array seems more beneficial when you have one type of data set
              * see with the hashtable, it has to have two data types in there to be whole
-             * it needs more than a string or an int to be considered a hashtable 
+             * it needs more than a string or an int to be considered a hashtable
+             * the hashtable takes in a data set in the form of key-value pairs
+             * the array is basically an object
              * if it had just one, it would seen as a hashset instead of table
              * with an array, it could have either or
              * I think more complex systems should have hashtable used while less complex ones shouldn't
@@ -70,7 +72,9 @@ internal class Program
             //I feel like Stacks and Queue are interchangable
             /*a stack is a data structure where things can be inserted and deleted from the top
              * a queue is a data structure where things can be inserted deleted from the rear.
-             * stack follows LIFO, queue follows FIFO
+             * stack follows LIFO,last in first out, while queue follows FIFO, first in first out
+             * stack is a non generic collection class
+             * queue is a special type of collection
              * I think queues are more suficient in removing old data, since it removes from the rear
              * while stacks are more suficient in removing near the top
              * I would prefer to use queue for these types of structures
