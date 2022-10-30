@@ -72,6 +72,7 @@ internal class Program
              * stack follows LIFO, queue follows FIFO
              * I think queues are more suficient in removing old data, since it removes from the rear
              * while stacks are more suficient in removing near the top
+             * I would prefer to use queue for these types of structures
              */
         }
     }
